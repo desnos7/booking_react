@@ -1,0 +1,29 @@
+
+.navbar{
+display: flex;
+background-color: grey;
+position: absolute;
+z-index: 1000;
+width: 100%;
+}
+.navbar-item{
+    width: 60%;
+   
+}
+.icon{
+    width: 40%;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 25px;
+}
+ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+   justify-content: space-around;
+    
+}
+li{
+    font-size:1.4rem;
+    margin-right: 45px;   
+}

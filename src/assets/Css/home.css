@@ -1,0 +1,51 @@
+
+.header{
+   background-size: cover ;
+   position: relative;
+   width: 100vw;
+    height: 45vh;
+    background-image: url(../../../public/image/bird-8165143_1280.jpg);
+}
+.text{
+    font-size: 18px;
+    text-align: center;
+    padding-top:8%;
+}
+button{
+    width: 10%;
+    padding: 12px;
+    border-radius: 18px;
+    border: none;
+    top: 25%;
+}
+.search{
+    border: none;
+   position: absolute;
+    background-color: white;
+    height: 15%;
+    display: flex;
+    width: 65%;
+   top: 38%;
+   left :15%;
+   border-radius:18px;
+    box-shadow:  5px 6px 6px rgb(238, 235, 235);
+}
+form{
+   padding: 3%;
+    display:flex;
+    gap: 7%;
+    
+}
+input[type="text"]{
+    padding: 5%;
+    width: 200px;
+    border:transparent;
+    border-radius:10px;
+    background-color: rgba(231, 239, 239, 0.801);
+    
+}
+.popu{
+    margin-top: 8%;
+    margin-left:10%;
+}
+
