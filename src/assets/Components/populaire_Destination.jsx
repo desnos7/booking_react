@@ -8,7 +8,7 @@ import {
   MDBRow,
   MDBCol
 } from 'mdb-react-ui-kit';
-
+import "../Css/populaire_Destination.css"
 
  function Populaire() {
     
@@ -16,8 +16,9 @@ import {
   return (
 
     <MDBRow className='row-cols-1 row-cols-md-5 g-3 '>
-        <div><h1>Popular Destinations</h1>
-    <p>From historial itiees la natural</p></div>
+        <div className='text'>
+          <h1>Popular Destinations</h1>
+        <p>From historial itiees la natural</p></div>
     
       <MDBCol>
         <MDBCard className='h-100 rounded-4'>

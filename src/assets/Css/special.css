@@ -1,8 +1,11 @@
 .slide{
-width: 70%;
-margin: 0 auto;
+width: 72%;
+margin-left: 8%;
 
 
+}
+.Text{
+text-align: center;
 }
 .carder{
     border: transparent;

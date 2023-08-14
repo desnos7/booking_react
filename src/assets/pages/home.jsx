@@ -3,7 +3,9 @@ import { Link } from "react-router-dom";
 import  Navbar  from "../Components/navbar.jsx";
 import Populaire from "../Components/populaire_Destination.jsx";
 import Special from '../Components/special_offre.jsx';
+import Service from '../Components/service.jsx';
 import "../Css/home.css";
+import Footer from '../Components/footer.jsx';
 function Home(){
     
     return (
@@ -28,8 +30,9 @@ function Home(){
   <div className='popu'> <Populaire/></div>
 
   <div className='popu'> <Special/></div>
+  <Service/>
  
-
+<Footer/>
 
         </>
       

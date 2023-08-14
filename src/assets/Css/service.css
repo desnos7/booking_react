@@ -1,0 +1,78 @@
+.video{
+    display: flex;
+    height: 30vh;
+    border: 2px solid black;width: 65%;
+    margin: 50px auto;
+    overflow: hidden;
+    background-image:url(../../../public/image/fireworks.jpeg);
+    object-fit: cover;
+    background-size: cover;
+}
+.title{
+    padding: 29px;
+}
+.autoPlay{
+    overflow: hidden;
+    padding: 29px;
+}
+video{
+    width: 100%;
+    height: 80%;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+.title{
+    color: white;
+}
+#te{
+    text-decoration: none;
+}
+.carde{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+}
+.bordu{
+ text-align: center;
+}
+.blog{
+    
+   
+    overflow: hidden;
+    object-fit: cover;
+    background-size: cover;
+}
+.bord{
+    margin: 0 auto;
+display: flex;
+flex-direction: row;
+flex-wrap:wrap ;
+    width: 66%;
+    padding: 9px;
+   
+
+   
+}
+.des{
+border: 5px solid white;
+overflow: hidden;
+
+width: 50%;
+border-radius: 8px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.des>img{
+    width: 100%;
+    height: 100%;
+    
+}
+.des:hover img {
+    transform: scale(1.5);
+    border-radius: 8px;
+    border: transparent;
+  }
+  .dese{
+    padding-left:5% ;
+    width: 60%;
+  }

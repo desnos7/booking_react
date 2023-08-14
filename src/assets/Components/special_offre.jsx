@@ -17,9 +17,12 @@ function special() {
       };
     return (
         <div className='slide'>
-        <h2> Special Offers</h2>
+            <div className='Text'>
+            <h2> Special Offers</h2>
 
-        <p>from historial cities to natural specteculars,come see the best of the word</p>
+<p>from historial cities to natural specteculars,come see the best of the word</p>
+            </div>
+        
         
         <Slider {...settings} >
         
