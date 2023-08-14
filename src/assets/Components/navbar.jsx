@@ -13,7 +13,7 @@ function Navbar(){
             <li>HOME</li>
             <li>Ressource</li>
             <li>Produits</li>
-            <li>insription</li>
+            <li className='in'>insription</li>
             <li>connexion</li>
           </ul>
         </div>

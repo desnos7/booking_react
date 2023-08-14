@@ -1,7 +1,7 @@
 
 .navbar{
 display: flex;
-background-color: grey;
+/* background-color: grey; */
 position: absolute;
 z-index: 1000;
 width: 100%;
@@ -24,6 +24,7 @@ ul{
     
 }
 li{
+    color:white;
     font-size:1.4rem;
     margin-right: 45px;   
 }

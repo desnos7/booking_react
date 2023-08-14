@@ -8,9 +8,7 @@ import {
   MDBRow,
   MDBCol
 } from 'mdb-react-ui-kit';
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
+
 
  function Populaire() {
     
